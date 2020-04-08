@@ -1,0 +1,16 @@
+{
+  "name": "battletest_sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "battletest": "battletest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "battletest": "file:../battletest"
+  }
+}
