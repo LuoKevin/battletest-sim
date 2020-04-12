@@ -16,6 +16,7 @@ describe('/stockdata', () => {
         .send({ ticker: 'GOOG' })
         .expect(200)
         .end((err, res) => {
+          //console.log(res);
           expect(res.body).to.have.property('ticker');
           done(err);
         });
