@@ -1,36 +1,79 @@
-
-// Full user guide is available at https://github.com/oslabs-beta/battletest.
-
 module.exports = {
-    server_location: null, // Location of the server file.  This file will be kicked up 
-    serverURL: null, // URL for the dev server, to which test requests will be sent.
-    routesForTesting: [ // List the routes to be tested & details for each route.
-        {
-            route: null, // Specify the route to be tested. Ex: '/signup'.
-            method: null, // Specify the request method. Ex: 'GET'.
-            vectors: [ // List ways 
-                {
-                    section: null, 
-                    key: null, // section, key: Available sections in the request are: "body", "headers", "query" and "params". Ex. To specify "req.body.ticker", please specify the section of "body" and key of "ticker".
-                    rule: null, // rule: Available rules are: "choose_one", "choose_many", "choose_range" and "choose_each". Please see the full guide for details.
-                    payload: [], // Potential values that the payload can take. Ex. ['MSFT', 'GOOG']
-                    payload_default: [] // Value that will be tested as a default. Ex. ['MSFT']
-                    payload_default_only: false // If set to true, only values explicitly specified in "payload_default" will be included in request scenarios.
-                }
-            ]
+    serverLocation: "../server.js",
+    serverURL: "http://localhost:8000",
+    authorization_cookie: null,
+    paths: {
+      "/pet/:petID": {
+        GET: {
+          parameters: [
+            {
+              name: "petID",
+              in: "path",
+              schema: {
+                type: "integer",
+              },
+            },
+            {
+              name: "lastVisitedDate",
+              in: "cookie",
+              schema: { type: "string" },
+            },
+            {
+              name: "token",
+              in: "header",
+              schema: {
+                type: "array",
+                items: {
+                  type: "integer",
+                },
+              },
+            },
+          ],
         },
-        {
-            route: null,
-            method: null,
-            vectors: [
-                {
-                    section: null,
-                    key: null,
-                    rule: null,  
-                    payload: [],
-                    payload_default: []
-                }
-            ]
-        }
-    ]
-}
+        PUT: {
+          parameters: [
+            {
+              name: "petID",
+              in: "path",
+              schema: { type: "integer" },
+            },
+          ],
+          requestBody: {
+            "text/plain": {},
+            "application/json": {
+              schema: {
+                type: "object", // can also be an array
+                properties: {
+                  name: { 
+                      type: "string" 
+                    },
+                  petType: {
+                    type: "string",
+                  },
+                  favoriteFoods: {
+                    type: "array",
+                    items: "string",
+                  },
+                  family: {
+                      type: 'object',
+                      properties: {
+                          mom: { type: "string" },
+                          dad: { type: "string" },
+                          siblings: {
+                              type: 'object',
+                              properties: {
+                                  sisters: { type: "array", items: "string" },
+                                  brothers: { type: "array", items: "string" },
+                              }
+                          }
+                      }
+                  }
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  };
+  

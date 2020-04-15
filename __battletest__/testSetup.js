@@ -1,13 +1,11 @@
-/**
- * Starts the test server before any tests are run.
- * Closes the test server once all tests have been run.
- */
 
 before(async () => {
-  testServer = await require('../server.js');
+    testServer = await require('../server.js');
+    serverURL = 'http://localhost:8000';
 });
-
+    
 after((done) => {
-  testServer.close();
-  done();
-})
+    testServer.close();
+    done();
+});
+    

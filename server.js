@@ -18,14 +18,17 @@ app.post('/stockdata', (req, res) => {
 
 const server = app.listen(PORT, () => { console.log(`server listening on port: ${PORT}`) });
 
-console.log(JSON.stringify(app._router.stack.slice(-1)[0].route.path))
-console.log(JSON.stringify(app._router.stack.slice(-1)[0].route.methods))
-console.log(String(app._router.stack.slice(-1)[0].route.stack[0].handle))
+// console.log(JSON.stringify(app._router.stack.slice(-1)[0].route.path))
+// console.log(JSON.stringify(app._router.stack.slice(-1)[0].route.methods))
+// console.log(String(app._router.stack.slice(-1)[0].route.stack[0].handle))
 
-console.log()
+// console.log()
 
-console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.path))
-console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.methods))
-console.log(String(app._router.stack.slice(-2)[0].route.stack[0].handle))
+// console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.path))
+// console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.methods))
+// console.log(String(app._router.stack.slice(-2)[0].route.stack[0].handle))
 
-module.exports = server;
+module.exports = {
+    app: app,
+    server: server
+};

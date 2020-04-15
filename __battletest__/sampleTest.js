@@ -8,8 +8,6 @@ const request = require('supertest');
 const chai = require('chai');
 const expect = chai.expect;
 
-const serverURL = 'http://localhost:8000'
-
 const result = {}
 
 describe('/stockdata', function() {
@@ -20,11 +18,11 @@ describe('/stockdata', function() {
       request(serverURL)
         .get('/stockdata')
         .send({ ticker: 'GOOG' })
-        .expect(400)
+        .expect(200)
         .end((err, res) => {
           endTime = Date.now();
           expect(res.body).to.have.property('ticker'); 
-          // TO DO - key will be full title
+
           const resultData =  {
             request: {
               body: res.request._data,
@@ -41,31 +39,16 @@ describe('/stockdata', function() {
         });
     });
   });
+  
+  afterEach(function() {
+    result[this.currentTest.fullTitle()]['passed'] = this.currentTest.state === 'passed';
+  });
+  
   after(() => {
     const resultPath = path.resolve(process.cwd(),`__battletest__/__result__/stockdataGET.json`)
     console.log(result);
     fs.writeFile(resultPath, JSON.stringify(result), function(err) {
       if (err) throw err
-    })
+    });
   });
 });
-
-// // save to JSON File
-// const resultPath = path.resolve(process.cwd(),`__battletest__/__result__/stockdataGET.json`)
-// console.log(result);
-// fs.writeFile(resultPath, JSON.stringify(result), function(err) {
-//   if (err) throw err
-// })
-
-
-/**
- * 
- * @param {Object} res 
- * @returns 
- */
-function parseRes(res) {
-  //
-  {
-
-  }
-}
