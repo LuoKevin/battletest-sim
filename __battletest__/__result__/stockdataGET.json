@@ -1,1 +1,1 @@
-{"/stockdata GET body: {ticker: GOOG}":{"request":{"body":{"ticker":"GOOG"},"query":[]},"response":{"status":200,"body":{"ticker":"GOOG"}},"timer":58,"passed":true}}
+{"/stockdata GET body: {ticker: GOOG}":{"request":{"body":{"ticker":"GOOG"},"query":[]},"response":{"status":200,"body":{"ticker":"GOOG"}},"timer":6,"passed":true}}

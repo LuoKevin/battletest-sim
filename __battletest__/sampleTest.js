@@ -46,7 +46,6 @@ describe('/stockdata', function() {
   
   after(() => {
     const resultPath = path.resolve(process.cwd(),`__battletest__/__result__/stockdataGET.json`)
-    console.log(result);
     fs.writeFile(resultPath, JSON.stringify(result), function(err) {
       if (err) throw err
     });

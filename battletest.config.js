@@ -4,32 +4,32 @@ module.exports = {
     authorization_cookie: null,
     paths: {
       "/pet/:petID": {
-        GET: {
-          parameters: [
-            {
-              name: "petID",
-              in: "path",
-              schema: {
-                type: "integer",
-              },
-            },
-            {
-              name: "lastVisitedDate",
-              in: "cookie",
-              schema: { type: "string" },
-            },
-            {
-              name: "token",
-              in: "header",
-              schema: {
-                type: "array",
-                items: {
-                  type: "integer",
-                },
-              },
-            },
-          ],
-        },
+        // GET: {
+        //   parameters: [
+        //     {
+        //       name: "petID",
+        //       in: "path",
+        //       schema: {
+        //         type: "integer",
+        //       },
+        //     },
+        //     {
+        //       name: "lastVisitedDate",
+        //       in: "cookie",
+        //       schema: { type: "string" },
+        //     },
+        //     {
+        //       name: "token",
+        //       in: "header",
+        //       schema: {
+        //         type: "array",
+        //         items: {
+        //           type: "integer",
+        //         },
+        //       },
+        //     },
+        //   ],
+        // },
         PUT: {
           parameters: [
             {
@@ -39,7 +39,6 @@ module.exports = {
             },
           ],
           requestBody: {
-            "text/plain": {},
             "application/json": {
               schema: {
                 type: "object", // can also be an array
