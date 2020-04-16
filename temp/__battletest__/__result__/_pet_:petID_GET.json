@@ -7,7 +7,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 97,
+    "timer": 36,
     "passed": false
   },
   "/pet/:petID_GET {\"path\":{\"petID\":\"2^53 - 1\"}}": {
@@ -18,7 +18,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 7,
+    "timer": 4,
     "passed": false
   },
   "/pet/:petID_GET {\"path\":{\"petID\":\"-(2^53 - 1)\"}}": {
@@ -29,7 +29,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 27,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_GET {\"path\":{\"petID\":\"1.79e+308\"}}": {
@@ -40,7 +40,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 43,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_GET {\"path\":{\"petID\":\"positive infinity\"}}": {
@@ -51,7 +51,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_GET {\"path\":{\"petID\":\"negative infinity\"}}": {
@@ -62,7 +62,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 28,
+    "timer": 6,
     "passed": false
   },
   "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"Extremely long string\"}}": {
@@ -73,7 +73,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"Postgres SQL injection\"}}": {
@@ -84,7 +84,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 32,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"Negative number\"}}": {
@@ -95,7 +95,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 4,
     "passed": false
   },
   "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"positive infinity\"}}": {
@@ -106,7 +106,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"random string\"}}": {
@@ -117,7 +117,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_GET {\"header\":{\"token\":\"Random array of strings\"}}": {
@@ -128,7 +128,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 26,
+    "timer": 3,
     "passed": false
   }
 }
