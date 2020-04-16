@@ -16,7 +16,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -45,7 +45,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/9007199254740991')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -74,7 +74,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/-9007199254740991')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -103,7 +103,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/1.7976931348623157e+308')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -132,7 +132,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/Infinity')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -161,7 +161,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/-Infinity')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -190,7 +190,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"****************************************************************************************************************************************************************************************************************************************************************","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"****************************************************************************************************************************************************************************************************************************************************************","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -219,7 +219,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"SELECT * FROM information_schema.tables","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"SELECT * FROM information_schema.tables","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -248,7 +248,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":-20,"petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":-20,"petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -277,7 +277,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":null,"petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":null,"petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -306,7 +306,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"tkif5merds","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"a9puk08z95","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -335,7 +335,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"****************************************************************************************************************************************************************************************************************************************************************","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"****************************************************************************************************************************************************************************************************************************************************************","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -364,7 +364,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"SELECT * FROM information_schema.tables","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"SELECT * FROM information_schema.tables","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -393,7 +393,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":-20,"favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":-20,"favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -422,7 +422,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":null,"favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":null,"favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -451,7 +451,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"z89hddszix","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"j2kmi8iz6m","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -480,7 +480,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["bbl5c2inuf","rkxmjeasuy","bqevst1paq","kiutq1l45m","pwyu1oacxp"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3e5neuxh86","muymr8k2ou","3169i2hmif","40sph4ehrd","ngcyridfbv"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -509,7 +509,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["85chuf09fr","mv47obc4vb","4m658x0a5x","fr9qwk6dz0","5kxu5co22t"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["mpuk345jx3","5ewaz9mwex","rzglxsq0gi","mco5hsh7yc","9k1kfdg48q"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -538,7 +538,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["ubxyyrd7o3","ivrx862pu6","w331j2wpoo","waptumioch","s4gyps4th6"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["7ypfqrx5yl","n9zc7y3cye","ds6khttc87","o2m02z8434","4yq7bd7v46"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -567,7 +567,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["rpk5wwhuxr","krm5plt5tb","6911l1yml4","91xgwedkup","xwsclqg1ps"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["rjkdzcmsqs","a8cnu17tt2","m724tg03zp","ganhzv9ufj","9m4huwtkse"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -596,7 +596,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["54pey45qb8","57g8zbde3q","l1si9xhc9j","uh0r6m4aai","350uio6qd5"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["80qet4ruxd","b3v5x7535v","hd9mf25y5g","6q3m3ap5jm","ph20e5q165"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -625,7 +625,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"****************************************************************************************************************************************************************************************************************************************************************","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"****************************************************************************************************************************************************************************************************************************************************************","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -654,7 +654,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"SELECT * FROM information_schema.tables","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"SELECT * FROM information_schema.tables","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -683,7 +683,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":-20,"dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":-20,"dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -712,7 +712,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":null,"dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":null,"dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -741,7 +741,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"d32blnafqy","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"78se7nsp1c","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -770,7 +770,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"****************************************************************************************************************************************************************************************************************************************************************","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"****************************************************************************************************************************************************************************************************************************************************************","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -799,7 +799,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"SELECT * FROM information_schema.tables","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"SELECT * FROM information_schema.tables","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -828,7 +828,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":-20,"siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":-20,"siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -857,7 +857,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":null,"siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":null,"siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -886,7 +886,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"dml6c9rjg9","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"px6dualhw1","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -915,7 +915,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["j4isuwsj6j","keirp3w7lk","pj48fny2kw","wkrari0yuz","85hg0a5ykf"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["9hqv3ox523","w6uhc2zv7e","d4sckk9nsa","eiv4lsyqrn","xrrgyqwimn"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -944,7 +944,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["rb37oyowhu","ilcp7d5oc6","4q0bdxbkm0","lsvlqml40v","u8kcpxykp0"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["9qlrenh8di","auf27nen4l","hbdd7ozadr","xeowt5qpb9","2gpgunslms"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -973,7 +973,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["yjavw4tmn4","0voscyufnf","1h7r508wn7","rkdtpyzr0c","qy4216b3ep"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["vv3hiilriz","f07w62q1hg","b5nkr63010","hvmwhvo6ht","ng6rx8nz1i"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1002,7 +1002,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["3n6a87ngla","jc0juf6669","xrnhqw3qfd","h7q95ooans","bggvu9fd73"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["9q3h9tierv","a6g8bwx278","wzlmtw4ml9","dhqtu17m8h","qknvx5elml"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1031,7 +1031,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["1h2w2x7ict","fl5sh2h2jk","g16ykpkbuz","n0k3ah0jog","hjau54na5t"],"brothers":["l49t7kw322","ha7mfu3eat","mut39ub8fq","3ms9lmuyn7","watgvxcp7f"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["51039k365w","anxvb58x7y","l1r1jlofhp","e5ocyne5ud","6pqx4qaqeq"],"brothers":["8p54vhylal","s1mg63uymm","ju7l58j8c7","vdzxr3edb5","md2m3pvmgo"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1060,7 +1060,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["huwwaw0xht","qp90deqmfh","mq2jgt7loi","l2ur6s6i40","rtq5sqzifq"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["f8ka41mllt","jse5q0dh5j","f504sc5733","byegfkjm2d","a5ayjiloin"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1089,7 +1089,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["kavh9xh9w1","vox1sa2lp4","cj117emv2h","kwxouvvne0","zhvtuwootg"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["bel2cl5g2v","pjr34u2n34","tnc9fah8a5","7rscdnl1zp","jpqgwzbtvn"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1118,7 +1118,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["8lv1ehkrf5","5cvhgepyhf","vsr8bmgrpx","76yzfhcxkg","ar1mp2ixiq"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["dic4l7y4to","2orepjscmq","z2mozfnwho","tpqw9637hu","mjicqmkpce"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1147,7 +1147,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["eqqhwukwf7","sruf313rmt","a8mdww43a6","6uakko15fu","q9qd7xn5cd"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["zgv8g8mlfk","pfw2sl9yk8","23wx4wcc9e","xey05ya6e9","89c7s771fm"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();
@@ -1176,7 +1176,7 @@ describe('/pet/:petID_PUT', function() {
   request(serverURL)
     .put('/pet/5')
     .type('application/json')
-    .send({"name":"string","petType":"string","favoriteFoods":["3w6cehzmqp","lwdrhe3cl5","3mbu67usm1","dfbt8mrjx1","u4matkgex0"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["hwdvmg47jp","grxuuoxn7o","41ak858iqa","6yf3wc1q9s","bt9sjw6co2"],"brothers":["yn99ogs4cj","0tl44ywax8","dc1gzxmw8d","ffqstioyzc","0z62xep95a"]}}})
+    .send({"name":"string","petType":"string","favoriteFoods":["3ep2c84cg5","ljk7eejr12","03d2hdb7v2","n3zu2rlcwm","lfnn371dzh"],"family":{"mom":"string","dad":"string","siblings":{"sisters":["qj1jwungfz","pbnkamhc01","edvfcxbbel","4bgaofdyty","ub680gsh2u"],"brothers":["z1vf4mdiwe","60jp2zt5vk","04uybwiate","swderb4fly","qzwzvs3562"]}}})
     .expect(400)
     .end((err, res) => {
         endTime = Date.now();

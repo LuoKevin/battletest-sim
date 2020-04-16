@@ -1,0 +1,134 @@
+{
+  "/pet/:petID_GET Base Scenario": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 40,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"path\":{\"petID\":\"2^53 - 1\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 4,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"path\":{\"petID\":\"-(2^53 - 1)\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 2,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"path\":{\"petID\":\"1.79e+308\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 3,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"path\":{\"petID\":\"positive infinity\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 3,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"path\":{\"petID\":\"negative infinity\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 3,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"Extremely long string\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 2,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"Postgres SQL injection\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 3,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"Negative number\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 5,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"positive infinity\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 5,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"cookie\":{\"lastVisitedDate\":\"random string\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 2,
+    "passed": false
+  },
+  "/pet/:petID_GET {\"header\":{\"token\":\"Random array of strings\"}}": {
+    "request": {
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 4,
+    "passed": false
+  }
+}

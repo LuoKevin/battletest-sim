@@ -5,29 +5,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -38,7 +38,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 64,
+    "timer": 42,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"2^53 - 1\"}}": {
@@ -47,29 +47,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -80,7 +80,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 4,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"-(2^53 - 1)\"}}": {
@@ -89,29 +89,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -122,7 +122,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 8,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"1.79e+308\"}}": {
@@ -131,29 +131,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -164,7 +164,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 17,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"positive infinity\"}}": {
@@ -173,29 +173,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -215,197 +215,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
-            ]
-          }
-        }
-      },
-      "query": []
-    },
-    "response": {
-      "status": 404,
-      "body": {}
-    },
-    "timer": 3,
-    "passed": false
-  },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Extremely long string\"}}}": {
-    "request": {
-      "body": {
-        "name": "****************************************************************************************************************************************************************************************************************************************************************",
-        "petType": "string",
-        "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
-        ],
-        "family": {
-          "mom": "string",
-          "dad": "string",
-          "siblings": {
-            "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
-            ],
-            "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
-            ]
-          }
-        }
-      },
-      "query": []
-    },
-    "response": {
-      "status": 404,
-      "body": {}
-    },
-    "timer": 3,
-    "passed": false
-  },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Postgres SQL injection\"}}}": {
-    "request": {
-      "body": {
-        "name": "SELECT * FROM information_schema.tables",
-        "petType": "string",
-        "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
-        ],
-        "family": {
-          "mom": "string",
-          "dad": "string",
-          "siblings": {
-            "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
-            ],
-            "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
-            ]
-          }
-        }
-      },
-      "query": []
-    },
-    "response": {
-      "status": 404,
-      "body": {}
-    },
-    "timer": 6,
-    "passed": false
-  },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Negative number\"}}}": {
-    "request": {
-      "body": {
-        "name": -20,
-        "petType": "string",
-        "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
-        ],
-        "family": {
-          "mom": "string",
-          "dad": "string",
-          "siblings": {
-            "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
-            ],
-            "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
-            ]
-          }
-        }
-      },
-      "query": []
-    },
-    "response": {
-      "status": 404,
-      "body": {}
-    },
-    "timer": 3,
-    "passed": false
-  },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"positive infinity\"}}}": {
-    "request": {
-      "body": {
-        "name": null,
-        "petType": "string",
-        "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
-        ],
-        "family": {
-          "mom": "string",
-          "dad": "string",
-          "siblings": {
-            "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
-            ],
-            "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -419,35 +251,35 @@
     "timer": 2,
     "passed": false
   },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"random string\"}}}": {
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Extremely long string\"}}}": {
     "request": {
       "body": {
-        "name": "tkif5merds",
+        "name": "****************************************************************************************************************************************************************************************************************************************************************",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -458,38 +290,38 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 4,
     "passed": false
   },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"Extremely long string\"}}}": {
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Postgres SQL injection\"}}}": {
     "request": {
       "body": {
-        "name": "string",
-        "petType": "****************************************************************************************************************************************************************************************************************************************************************",
+        "name": "SELECT * FROM information_schema.tables",
+        "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -503,35 +335,203 @@
     "timer": 3,
     "passed": false
   },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"Postgres SQL injection\"}}}": {
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Negative number\"}}}": {
     "request": {
       "body": {
-        "name": "string",
-        "petType": "SELECT * FROM information_schema.tables",
+        "name": -20,
+        "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
+            ]
+          }
+        }
+      },
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 5,
+    "passed": false
+  },
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"positive infinity\"}}}": {
+    "request": {
+      "body": {
+        "name": null,
+        "petType": "string",
+        "favoriteFoods": [
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
+        ],
+        "family": {
+          "mom": "string",
+          "dad": "string",
+          "siblings": {
+            "sisters": [
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
+            ],
+            "brothers": [
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
+            ]
+          }
+        }
+      },
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 4,
+    "passed": false
+  },
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"random string\"}}}": {
+    "request": {
+      "body": {
+        "name": "a9puk08z95",
+        "petType": "string",
+        "favoriteFoods": [
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
+        ],
+        "family": {
+          "mom": "string",
+          "dad": "string",
+          "siblings": {
+            "sisters": [
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
+            ],
+            "brothers": [
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
+            ]
+          }
+        }
+      },
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 3,
+    "passed": false
+  },
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"Extremely long string\"}}}": {
+    "request": {
+      "body": {
+        "name": "string",
+        "petType": "****************************************************************************************************************************************************************************************************************************************************************",
+        "favoriteFoods": [
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
+        ],
+        "family": {
+          "mom": "string",
+          "dad": "string",
+          "siblings": {
+            "sisters": [
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
+            ],
+            "brothers": [
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
+            ]
+          }
+        }
+      },
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 5,
+    "passed": false
+  },
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"Postgres SQL injection\"}}}": {
+    "request": {
+      "body": {
+        "name": "string",
+        "petType": "SELECT * FROM information_schema.tables",
+        "favoriteFoods": [
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
+        ],
+        "family": {
+          "mom": "string",
+          "dad": "string",
+          "siblings": {
+            "sisters": [
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
+            ],
+            "brothers": [
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -551,29 +551,29 @@
         "name": "string",
         "petType": -20,
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -584,7 +584,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 2,
+    "timer": 7,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"positive infinity\"}}}": {
@@ -593,29 +593,71 @@
         "name": "string",
         "petType": null,
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
+            ]
+          }
+        }
+      },
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 27,
+    "passed": false
+  },
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"random string\"}}}": {
+    "request": {
+      "body": {
+        "name": "string",
+        "petType": "j2kmi8iz6m",
+        "favoriteFoods": [
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
+        ],
+        "family": {
+          "mom": "string",
+          "dad": "string",
+          "siblings": {
+            "sisters": [
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
+            ],
+            "brothers": [
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -629,77 +671,35 @@
     "timer": 2,
     "passed": false
   },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"random string\"}}}": {
-    "request": {
-      "body": {
-        "name": "string",
-        "petType": "z89hddszix",
-        "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
-        ],
-        "family": {
-          "mom": "string",
-          "dad": "string",
-          "siblings": {
-            "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
-            ],
-            "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
-            ]
-          }
-        }
-      },
-      "query": []
-    },
-    "response": {
-      "status": 404,
-      "body": {}
-    },
-    "timer": 3,
-    "passed": false
-  },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"favoriteFoods\":\"Random array of strings\"}}}": {
     "request": {
       "body": {
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "54pey45qb8",
-          "57g8zbde3q",
-          "l1si9xhc9j",
-          "uh0r6m4aai",
-          "350uio6qd5"
+          "80qet4ruxd",
+          "b3v5x7535v",
+          "hd9mf25y5g",
+          "6q3m3ap5jm",
+          "ph20e5q165"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -710,7 +710,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 8,
+    "timer": 6,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"Extremely long string\"}}}}": {
@@ -719,29 +719,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "****************************************************************************************************************************************************************************************************************************************************************",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -761,29 +761,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "SELECT * FROM information_schema.tables",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -794,7 +794,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 2,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"Negative number\"}}}}": {
@@ -803,71 +803,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": -20,
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
-            ]
-          }
-        }
-      },
-      "query": []
-    },
-    "response": {
-      "status": 404,
-      "body": {}
-    },
-    "timer": 7,
-    "passed": false
-  },
-  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"positive infinity\"}}}}": {
-    "request": {
-      "body": {
-        "name": "string",
-        "petType": "string",
-        "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
-        ],
-        "family": {
-          "mom": null,
-          "dad": "string",
-          "siblings": {
-            "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
-            ],
-            "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -881,35 +839,77 @@
     "timer": 2,
     "passed": false
   },
+  "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"positive infinity\"}}}}": {
+    "request": {
+      "body": {
+        "name": "string",
+        "petType": "string",
+        "favoriteFoods": [
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
+        ],
+        "family": {
+          "mom": null,
+          "dad": "string",
+          "siblings": {
+            "sisters": [
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
+            ],
+            "brothers": [
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
+            ]
+          }
+        }
+      },
+      "query": []
+    },
+    "response": {
+      "status": 404,
+      "body": {}
+    },
+    "timer": 5,
+    "passed": false
+  },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"random string\"}}}}": {
     "request": {
       "body": {
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
-          "mom": "d32blnafqy",
+          "mom": "78se7nsp1c",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -929,29 +929,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "****************************************************************************************************************************************************************************************************************************************************************",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -962,7 +962,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 2,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"dad\":\"Postgres SQL injection\"}}}}": {
@@ -971,29 +971,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "SELECT * FROM information_schema.tables",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -1004,7 +1004,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"dad\":\"Negative number\"}}}}": {
@@ -1013,29 +1013,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": -20,
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -1055,29 +1055,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": null,
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -1097,29 +1097,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
-          "dad": "dml6c9rjg9",
+          "dad": "px6dualhw1",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -1130,7 +1130,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"siblings\":{\"sisters\":\"Random array of strings\"}}}}}": {
@@ -1139,29 +1139,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "1h2w2x7ict",
-              "fl5sh2h2jk",
-              "g16ykpkbuz",
-              "n0k3ah0jog",
-              "hjau54na5t"
+              "51039k365w",
+              "anxvb58x7y",
+              "l1r1jlofhp",
+              "e5ocyne5ud",
+              "6pqx4qaqeq"
             ],
             "brothers": [
-              "l49t7kw322",
-              "ha7mfu3eat",
-              "mut39ub8fq",
-              "3ms9lmuyn7",
-              "watgvxcp7f"
+              "8p54vhylal",
+              "s1mg63uymm",
+              "ju7l58j8c7",
+              "vdzxr3edb5",
+              "md2m3pvmgo"
             ]
           }
         }
@@ -1172,7 +1172,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 2,
+    "timer": 5,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"siblings\":{\"brothers\":\"Random array of strings\"}}}}}": {
@@ -1181,29 +1181,29 @@
         "name": "string",
         "petType": "string",
         "favoriteFoods": [
-          "3w6cehzmqp",
-          "lwdrhe3cl5",
-          "3mbu67usm1",
-          "dfbt8mrjx1",
-          "u4matkgex0"
+          "3ep2c84cg5",
+          "ljk7eejr12",
+          "03d2hdb7v2",
+          "n3zu2rlcwm",
+          "lfnn371dzh"
         ],
         "family": {
           "mom": "string",
           "dad": "string",
           "siblings": {
             "sisters": [
-              "hwdvmg47jp",
-              "grxuuoxn7o",
-              "41ak858iqa",
-              "6yf3wc1q9s",
-              "bt9sjw6co2"
+              "qj1jwungfz",
+              "pbnkamhc01",
+              "edvfcxbbel",
+              "4bgaofdyty",
+              "ub680gsh2u"
             ],
             "brothers": [
-              "yn99ogs4cj",
-              "0tl44ywax8",
-              "dc1gzxmw8d",
-              "ffqstioyzc",
-              "0z62xep95a"
+              "z1vf4mdiwe",
+              "60jp2zt5vk",
+              "04uybwiate",
+              "swderb4fly",
+              "qzwzvs3562"
             ]
           }
         }
@@ -1214,7 +1214,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 2,
+    "timer": 5,
     "passed": false
   }
 }
