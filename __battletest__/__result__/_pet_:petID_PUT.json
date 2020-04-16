@@ -38,7 +38,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 66,
+    "timer": 64,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"2^53 - 1\"}}": {
@@ -80,7 +80,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 4,
+    "timer": 6,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"-(2^53 - 1)\"}}": {
@@ -164,7 +164,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 3,
+    "timer": 17,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"positive infinity\"}}": {
@@ -206,7 +206,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"path\":{\"petID\":\"negative infinity\"}}": {
@@ -248,7 +248,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 4,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Extremely long string\"}}}": {
@@ -332,7 +332,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 3,
+    "timer": 6,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"Negative number\"}}}": {
@@ -374,7 +374,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 4,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"positive infinity\"}}}": {
@@ -416,7 +416,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 4,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"name\":\"random string\"}}}": {
@@ -458,7 +458,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 2,
+    "timer": 5,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"Extremely long string\"}}}": {
@@ -500,7 +500,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"Postgres SQL injection\"}}}": {
@@ -584,7 +584,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 4,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"positive infinity\"}}}": {
@@ -626,7 +626,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 7,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"petType\":\"random string\"}}}": {
@@ -668,7 +668,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 3,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"favoriteFoods\":\"Random array of strings\"}}}": {
@@ -710,7 +710,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 3,
+    "timer": 8,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"Extremely long string\"}}}}": {
@@ -794,7 +794,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"Negative number\"}}}}": {
@@ -836,7 +836,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 7,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"positive infinity\"}}}}": {
@@ -878,7 +878,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 3,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"mom\":\"random string\"}}}}": {
@@ -962,7 +962,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"dad\":\"Postgres SQL injection\"}}}}": {
@@ -1004,7 +1004,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 3,
+    "timer": 5,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"dad\":\"Negative number\"}}}}": {
@@ -1088,7 +1088,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 6,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"dad\":\"random string\"}}}}": {
@@ -1172,7 +1172,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 5,
+    "timer": 2,
     "passed": false
   },
   "/pet/:petID_PUT {\"application/json\":{\"body\":{\"family\":{\"siblings\":{\"brothers\":\"Random array of strings\"}}}}}": {
@@ -1214,7 +1214,7 @@
       "status": 404,
       "body": {}
     },
-    "timer": 4,
+    "timer": 2,
     "passed": false
   }
 }
