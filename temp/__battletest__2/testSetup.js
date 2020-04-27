@@ -1,7 +1,6 @@
 
 before(async () => {
-    const { server, app } = await require('../server.js');
-    testServer = server;
+    testServer = await require('../server.js');
     serverURL = 'http://localhost:8000';
 });
     

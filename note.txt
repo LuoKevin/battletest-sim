@@ -1,0 +1,5 @@
+npx battletest init sampleServer.js
+npx battletest init server.js
+<changed to "filled_out_battletest.config.js">
+npx battletest generate
+npx battletest start

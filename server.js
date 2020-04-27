@@ -22,10 +22,8 @@ const server = app.listen(PORT, () => { console.log(`server listening on port: $
 // console.log(JSON.stringify(app._router.stack.slice(-1)[0].route.methods))
 // console.log(String(app._router.stack.slice(-1)[0].route.stack[0].handle))
 
-// console.log()
-
 // console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.path))
 // console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.methods))
 // console.log(String(app._router.stack.slice(-2)[0].route.stack[0].handle))
 
-module.exports = { server, app };
+module.exports = { server: server, app: app };
