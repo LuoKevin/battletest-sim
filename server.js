@@ -28,4 +28,4 @@ const server = app.listen(PORT, () => { console.log(`server listening on port: $
 // console.log(JSON.stringify(app._router.stack.slice(-2)[0].route.methods))
 // console.log(String(app._router.stack.slice(-2)[0].route.stack[0].handle))
 
-module.exports = server;
+module.exports = { server, app };
