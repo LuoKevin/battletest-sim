@@ -1,0 +1,70 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+.results {
+    display: flex;
+}
+
+.results li {
+    list-style-type: none;
+}
+
+#passed button {
+    background-color: rgb(51, 189, 51);
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#failed button {
+    background-color: rgb(233, 54, 54);
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+#failed p {
+    border: solid 1px #f93e3e;
+    border-radius: 6px;
+    padding: 5px;
+    background: rgba(249, 62, 62, 0.1)
+}
+
+#passed p {
+    border: solid 1px #6fce8b;
+    border-radius: 6px;
+    padding: 5px;
+    background: rgba(122, 241, 172, 0.1)
+}
+
+.endpoint {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.result_keys li {
+    font-weight: 700;
+    padding: 7px 0;
+}
+
+.result_values li {
+    padding: 7px 0;
+}
+
